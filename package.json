@@ -1,0 +1,42 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "camelcase-keys": "^6.2.2",
+    "chart.js": "^3.9.1",
+    "classnames": "^2.3.1",
+    "datatables.net": "^1.13.1",
+    "gray-matter": "^4.0.3",
+    "html-react-parser": "^3.0.4",
+    "js-cookie": "^3.0.5",
+    "next": "12.2.5",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-cookie": "^7.0.1",
+    "react-countup": "^6.3.1",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-scroll": "^1.8.7",
+    "react-scroll-to-top": "^3.0.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "autoprefixer": "^10.4.8",
+    "cross-env": "^7.0.3",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.4",
+    "tailwindcss": "^3.1.8"
+  }
+}
