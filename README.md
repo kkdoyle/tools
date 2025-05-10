@@ -4,15 +4,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - Node.js Version >= 16.16.0
 
-## API Endpoints Configuration
-
-Create ".env.local" locally and it will be ignored from Git.
-
-```env
-API_ENDPOINT_DEV=https://app-gametools-api.azurewebsites.net/api
-API_ENDPOINT_PROD=https://app-gametools-api.azurewebsites.net/api
-```
-
 ## Development
 
 Installment
