@@ -8,18 +8,11 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <head>
-        {/*
-          CookieYes Script
-          - strategy="beforeInteractive" ensures it loads and executes before Next.js hydrates the page.
-          - This is crucial for consent management to work effectively and block cookies early.
-        */}
-        <Script
-          id="cookieyes" // Use the ID provided by CookieYes
+        <script
+          id="cookieyes"
           type="text/javascript"
           src="https://cdn-cookieyes.com/client_data/0ee8f6e14d5b0008528477de/script.js"
-          strategy="beforeInteractive"
-        />
-        {/* Any other scripts that should load before interactive content but after CookieYes (if any) */}
+        ></script>
       </head>
       <main className={styles.main}>{children}</main>
     </div>
